@@ -1,0 +1,7 @@
+NDBNumber text not null
+SequenceNumber text not null
+Amount decimal(6,3)
+Description text
+GramWeight decimal(7,1)
+NumberOfDataPoints integer
+StandardDeviation numeric(7,3), primary key(NDBNumber, SequenceNumber)

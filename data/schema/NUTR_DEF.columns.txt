@@ -1,0 +1,6 @@
+Code text not null primary key
+Units text not null
+Tagname text
+NutrientDescription text
+NumberOfDecimals text
+SROrder integer

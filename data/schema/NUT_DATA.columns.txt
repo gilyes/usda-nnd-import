@@ -1,0 +1,18 @@
+NDBNumber text not null
+NutrientCode text not null
+NutrientValue numeric(10,3) not null
+NumberOfDataPoints numeric(5,0) not null
+StandardError numeric(8,3)
+DataTypeCode text not null
+DataDerivationCode text
+RefNDBNumber text
+AddedNutrientMark text
+NumberOfStudies integer
+MinimumValue numeric(10,3)
+MaximumValue numeric(10,3)
+DegreesOfFreedom integer
+LowerErrorBound numeric(10,3)
+UpperErrorBound numeric(10,3)
+StatisticalComments text
+AddedOrModifiedDate text
+ConfidenceCode text, primary key(NDBNumber, NutrientCode)

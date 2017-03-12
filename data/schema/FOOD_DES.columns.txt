@@ -1,0 +1,14 @@
+NDBNumber text not null primary key
+FoodGroupCode text not null
+LongDescription text not null
+ShortDescription text not null
+CommonName text
+ManufacturerName text
+Survey text
+RefuseDescription text
+RefusePercentage smallint
+ScientificName text
+NitrogenFactor decimal(4,2)
+ProteinFactor decimal(4,2)
+FatFactor decimal(4,2)
+CarboHydrateFactor decimal(4,2)
